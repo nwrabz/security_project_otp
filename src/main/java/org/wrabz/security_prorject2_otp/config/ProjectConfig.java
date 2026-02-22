@@ -15,12 +15,10 @@ public class ProjectConfig {
                         c.disable())
                 .authorizeHttpRequests(auth ->
                         auth.anyRequest().permitAll());
-
         return http.build();
     }
 
     public PasswordEncoder passwordEncoder() {
-
         return new  BCryptPasswordEncoder();
     }
 }

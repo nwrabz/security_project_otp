@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `spring_security`.`user` (
+CREATE TABLE IF NOT EXISTS `spring_security`.`users` (
                                                         `username` VARCHAR(45) UNIQUE,
                                                         `password` TEXT NULL,
                                                         PRIMARY KEY (`username`));
