@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.wrabz</groupId>
-	<artifactId>security_prorject2_otp</artifactId>
+	<artifactId>security_project2_otp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>security_prorject2_otp</name>
 	<description>Demo project for Spring Security</description>
